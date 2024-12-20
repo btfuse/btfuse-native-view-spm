@@ -29,12 +29,12 @@ let package = Package(
             url: "https://github.com/btfuse/btfuse-core-spm.git",
             branch: "main" // TODO: Pin via "from: <version>"
         )
-    ]
+    ],
     targets: [
         .binaryTarget(
             name: "BTFuseNativeView",
-            url: "https://github.com/btfuse/fuse/releases/download/ios%2Fnative-view%2F0.1.3-spm.1/BTFuseNativeView.xcframework.zip",
-            checksum: "5249a624990f8b8f1b3100e9c50f5777cdba3e21e9e91cfe5c92c140ef1c2a80"
+            url: "https://github.com/btfuse/fuse/releases/download/ios%2Fnative-view%2F0.1.3-spm.2/BTFuseNativeView.xcframework.zip",
+            checksum: "9b13b88a8227795691d0c451f0b53ab5e9c41168853f6fe4ef915234faa46bda"
         )
     ]
 )
